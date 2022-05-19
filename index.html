@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckOut</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>CheckOut</h1>
+    </header>
+    <main>
+    <section class="leftSec">
+        <div class="upperForm">
+            <h2>Contact information</h2>
+            <form action="#" class="contact">
+                <div class="inputArea">
+                <label for="email">Email</label><br>
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" name="email" id="email" placeholder="Enter your email...">
+                </div>
+                <div class="inputArea">
+                <label for="Phone">Phone</label><br>
+                <ion-icon name="call-outline"></ion-icon>
+                <input type="number" name="Phone" id="Phone" placeholder="Enter your phone...">
+                </div>
+            </form>
+        </div>
+        <div class="lowerForm">
+            <h2>Shipping adress</h2>
+            <form action="#" class="shipping">
+                <div class="inputArea">
+                <label for="fullName">Full name</label><br>
+                <ion-icon name="person-outline"></ion-icon>
+                <input type="text" name="fullName" id="fullName" placeholder="Enter your Full name...">
+                </div>
+                <div class="inputArea">
+                <label for="Address">Address</label><br>
+                <ion-icon name="home-outline"></ion-icon>
+                <input type="text" name="Address" id="Address" placeholder="Enter your address...">
+                </div>
+                <div class="inputArea">
+                <label for="city">City</label><br>
+                <ion-icon name="business-outline"></ion-icon>
+                <input type="text" name="city" id="city" placeholder="Enter your phone...">
+                </div>
+                <div>
+                    <ul class="locationInfo">
+                        <li class="countryList">
+                            <label for="country">Country</label><br>
+                            <ion-icon name="earth-outline"></ion-icon>
+                            <select name="country" id="country">
+                            <option value="turkiye">Türkiye</option>
+                            <option value="uk">UK</option>
+                            <option value="germany">Deutschland</option>
+                            </select> 
+                        </li>
+                        <li>
+                            <label for="postCode">Post Code</label>
+                            <ion-icon name="card-outline"></ion-icon>
+                            <input type="number" name="postCode" id="postCode" placeholder="Enter your postal code...">
+                        </li>
+                    </ul>
+                </div>
+               <div>
+                <input type="checkbox"> See this information next time 
+               </div>
+               
+            </form>
+        </div>
+    </section>
+    <section class="rightSec">
+        <div class="upperList">
+            <ul class="products">
+                <li class="firstItem">
+                    <img src="./IMG/photo1.png" alt="Vintage Backbag">
+                    <div class="firstItemText">
+                        <h4 class="item-title">Vintage Backbag</h4>
+                        <h4 class="price-text">$54.99<span class="price-overline"><del>$94.99</del></span></h4>   
+                    </div>
+                    <div>
+                        <button>-</button>
+                        <p>1</p>
+                        <button>+</button>
+                    </div>
+                </li>
+                <li class="secondItem">
+                    <img src="./IMG/photo2.png" alt="Levi Shoes">
+                    <div class="secondItemText">
+                        <h4 class="item-title">Levi Shoes</h4>
+                        <h4 class="price-text">$74.99<span class="price-overline"><del>$124.99</del></span></h4>   
+                    </div>
+                    <div>
+                        <button>-</button>
+                        <p>1</p>
+                        <button>+</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="lowerList">
+            <div class="rightSecLowerText">
+                <p>Shipping</p>
+                <p>$19</p>
+                </div>
+                <div class="rightSecLowerText">
+                <p>Total</p>
+                <p>$148.98</p>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div>
+            <button>Continue</button>
+        </div>
+    </footer>
+</body>
+</html>

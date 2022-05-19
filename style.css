@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+}
+
+body{
+    padding: 5px 60px;
+}
+main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+header,footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px 40px 0px;
+}
+
+.leftSec {
+    width: 60%;
+    margin: 0 20px;
+    padding: 1rem;
+}
+
+.rightSec {
+    width: 40%;
+    margin: 0 1.2rem;
+    background-color: #eeeeee;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+input {
+    border-style: none;
+    padding: 0.3rem;
+    height: 2rem;
+    width: 80%;
+    outline: none;
+    margin: 0.5rem 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+/* ion-icon {
+    margin: 0 2px 0 10px;
+  } */
+
+#email, #Phone, #fullName, #Address, #city, #postCode{
+    position: relative;
+    right: 0.7rem;
+    width: 35rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.locationInfo{
+    display: contents;
+}
+
