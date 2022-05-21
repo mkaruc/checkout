@@ -55,8 +55,32 @@ img{
 .buttons{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     border: 1px solid gray;
     border-radius: 4px;
-    padding: 15px;
+    padding: padding: 10px 20px 10px 10px;
     width: 30%;
+}
+.pushButton{
+    margin: 5px;
+    background-color: orange;
+    padding: 10px;
+    width: 30px;
+    border: 1px solid gray;
+    border-radius: 4px;
+
+}
+.upperList{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.lowerList{
+
+}
+.rightSecLowerText{
+    display: flex;
+    justify-content: space-between;
 }
